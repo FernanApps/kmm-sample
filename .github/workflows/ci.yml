@@ -4,9 +4,8 @@ on: [ push ]
 
 env:
   JAVA_VERSION: 20
-
+  
 jobs:
-
 
   Lint:
     runs-on: ubuntu-latest
